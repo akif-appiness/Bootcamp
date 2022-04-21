@@ -49,5 +49,41 @@
         <input type="password" placeholder="password" id="password" name="password">
         <button>Register</button>
     </form>
+    <!-- Registration form  with validation-->
+    <form action="#">
+        <div>
+        <label for="first">First Name:</label>
+        <input type="text" id="first" placeholder="FirstName" required>
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" placeholder="LastName" required>
+        </div>
+        <p> Select a Race:</p>
+        <div>
+        <input type="radio" name="race" id="funrun">
+        <lable for="funrun">Fun Run 5k</lable>
+        </div>
+        <div>
+            <input type="radio" name="race" id="half">
+            <lable for="half">Half Marathon</lable>
+        </div>
+        <div>
+            <input type="radio" name="race" id="full">
+            <lable for="full">Full marathon</lable>
+        </div>
+        <div>
+            <lable for="funrun">Email</lable>
+            <input type="email" name="race" id="funrun" placeholder="Email" required>
+            <lable for="password">Password</lable>
+            <input type="password" name="race" id="password" placeholder="password" required>
+        </div>
+        <label for="age">Select age group:</label>
+        <select id="age" name="age">
+            <option value="kids">under 18</option>
+            <option value="adult">18-40</option>
+            <option value="senior">40-60</option>
+        </select>
+        <button>Register</button>
+
+    </form>
 </body>
 </html>
