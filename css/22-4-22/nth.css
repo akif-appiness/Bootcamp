@@ -1,0 +1,36 @@
+
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  #board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+  .square:nth-of-type(even){
+    background:black;
+}
+.square:nth-of-type(odd){
+    background:red;
+}
+
+/* Pseudo Element */
+div::first-letter{
+    color: greenyellow;
+    font-size: 42px;
+}
+div::selection{
+    background-color: blue;
+}
+/* Specificity (It is defined by the specification of an element)*/
+.spec button:hover{
+    background-color: darkkhaki;
+}
+button:hover{
+    background-color: aqua;
+}

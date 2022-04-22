@@ -1,0 +1,67 @@
+/* Common Text Properties */
+h1, h2{
+    text-transform:uppercase;
+    font-family:monospace;
+    text-align:center;
+    font-weight:100;
+    font-size:40px;
+    letter-spacing:20px;
+    text-decoration: plum wavy underline;
+}
+div{
+    color: #00ffff;
+}
+p{
+    color:rgb(208, 236, 55);
+}
+/* Selectors */
+/* Universal Selector */
+*{
+    background-color: hotpink;
+}
+/* Element Selector */
+p{
+    background-color: brown;
+}
+/* Exercise CSS Slectors*/
+li{
+    color:blue;
+}
+.done{
+    color:grey;
+}
+#clear{
+    background-color:red;
+    color:white;
+}
+/* Decendent Selector */
+li a{
+    color: forestgreen;
+}
+header a{
+    font-size:30px;
+    color:teal;
+}
+#dislikes a{
+    font-weight:bold;
+    color:red;
+}
+/* Adjacent Selector */
+h3 + button{
+    background-color: royalblue;
+}
+/* Direct child/decendent selector */
+h4 > div{
+    background-color: cornflowerblue;
+}
+/* Attribute selector */
+input[type="text"]{
+    color: chartreuse;
+}
+/* Pseudo class */
+a:hover{
+    text-decoration: wavy underline;
+}
+button:active{
+    background-color: blue;
+}
