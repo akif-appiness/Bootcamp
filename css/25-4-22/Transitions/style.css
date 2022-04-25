@@ -1,0 +1,45 @@
+*{
+    font-family: 'Water Brush', cursive;
+}
+.circle{
+    background-color: magenta;
+    height: 200px;
+    width: 200px;
+}
+
+.circle:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+button{
+    background-color: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 16px 32px;
+    font-size: 18px;
+    margin-top: 25px;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    box-shadow: 0 8px 8px -6px #f1ff5c;
+    transform: translateY(-4px); 
+}
+
+section{
+    width: 80%;
+    height: 800px;
+    background-image: url("./milad-fakurian-DjjaZybYx4I-unsplash.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}

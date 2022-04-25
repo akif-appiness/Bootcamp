@@ -1,0 +1,38 @@
+h1{
+    background-color: aquamarine;
+    border: 2px solid #d0ec37;
+}
+.inline{
+    display: inline;
+}
+
+span{
+    background-color: blueviolet;
+    border: 2px solid rgb(23, 240, 229);
+}
+
+.block{
+    display: block;
+}
+
+div{
+    background-color: gold;
+    border: 2px solid yellowgreen;
+    height: 400px;
+    width: 400px;
+}
+
+.per{
+    width: 50%;
+    height: 50%;
+    background-color: cornflowerblue;
+    border: 2px solid rebeccapurple;
+}
+
+.em{
+    font-size: 32px;
+}
+
+p{
+    font-size: 2em;
+}
