@@ -1,48 +1,147 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Bootstrap Grid Exercise</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-4 bg-danger">One Third</div>
-            <div class="col-8 bg-info">Two Thirds</div>
-        </div>
-        <div class="row">
-            <div class="col-3 bg-warning">One Quarter</div>
-            <div class="col-6 bg-primary">One Half</div>
-            <div class="col-3 bg-warning">One Quarter</div>
-    </div>
+      <div class="row">
+        <div class="col-4 bg-danger">One Third</div>
+        <div class="col-8 bg-info">Two Thirds</div>
+      </div>
+      <div class="row">
+        <div class="col-3 bg-warning">One Quarter</div>
+        <div class="col-6 bg-primary">One Half</div>
+        <div class="col-3 bg-warning">One Quarter</div>
+      </div>
     </div>
     <h2 class="display-5">Responsive Grid</h2>
     <div class="container">
-    <div class="row">
-        <div class="col-m-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam non id ducimus optio soluta quidem?</div>
-        <div class="col-m-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates atque voluptate consequatur debitis quo delectus.</div>
-    </div>
+      <div class="row">
+        <div class="col-m-6">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam non
+          id ducimus optio soluta quidem?
+        </div>
+        <div class="col-m-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          atque voluptate consequatur debitis quo delectus.
+        </div>
+      </div>
     </div>
     <!-- Form -->
-    <form class=" container-sm">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Enter Address</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+    <form class="container-sm">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Enter Address</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-</body>
-</html>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+      <a href="#" class="navbar-brand">Home</a>
+    </nav>
+    <nav class="navbar navbar-dark bg-warning navbar-expand-sm">
+      <a href="#" class="navbar-brand">Navbar</a>
+      <button
+        class="navbar-toggler"
+        data-target="#expand"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="expand">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link">Contact US</a>
+          <a href="#" class="nav-item nav-link">About Us</a>
+          <a href="#" class="nav-item nav-link">Home</a>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Icons -->
+    <h1 class="display4 text-warning">
+      Icons<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-emoji-expressionless"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+        />
+        <path
+          d="M4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm5 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
+        />
+      </svg>
+    </h1>
+    <button class="btn btn-lg btn-danger">
+      Delete
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-trash"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
+        />
+      </svg>
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
