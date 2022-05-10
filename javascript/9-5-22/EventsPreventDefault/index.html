@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Basics</title>
+  </head>
+
+  <body>
+    <h1>Form Events</h1>
+
+    <form action="/dogs" id="tweetForm">
+      <input type="text" name="username" placeholder="username" />
+      <input type="text" name="tweet" placeholder="tweet" />
+      <button>Post Tweet</button>
+    </form>
+
+    <h2>Tweets:</h2>
+    <ul id="tweets"></ul>
+
+    <!-- Bubbling -->
+    <section onclick="alert('section clicked')">
+      <p onclick="alert('paragraph clicked')">
+        I am a paragraph:
+        <button onclick="alert('button clicked')">Click</button>
+      </p>
+    </section>
+
+    <div id="container">
+      Click To Hide
+      <button id="changeColor">Change Color</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
